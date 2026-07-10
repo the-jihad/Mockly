@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mockly
+
+A modern mock API platform built for developers. Mockly provides realistic fake datasets, interactive API documentation, and a clean developer experience for building, testing, and prototyping applications.
+
+## Features
+
+* Realistic mock REST APIs
+* Interactive API documentation
+* Multiple datasets (Users, Products, Posts, Comments, Companies, and more)
+* Pagination
+* Filtering
+* Sorting
+* Search
+* JSON responses
+* API Playground
+* Download datasets as JSON
+* Dark and light theme
+* Responsive interface
+
+## Tech Stack
+
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* React
+
+### Backend
+
+* Express.js
+* Node.js
+
+## Project Structure
+
+```text
+mockly/
+├── client/                 # Next.js application
+├── server/                 # Express API
+│   ├── data/
+│   ├── routes/
+│   ├── middleware/
+│   ├── utils/
+│   └── app.js
+└── README.md
+```
+
+## Available Endpoints
+
+```http
+GET /api/users
+GET /api/products
+GET /api/posts
+GET /api/comments
+GET /api/companies
+GET /api/categories
+```
+
+### Query Parameters
+
+```text
+?page=1
+?limit=10
+?search=laptop
+?sort=price
+?order=desc
+```
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/mockly.git
+cd mockly
+```
+
+### Install dependencies
+
+Frontend
+
+```bash
+cd client
+npm install
+```
+
+Backend
+
+```bash
+cd server
+npm install
+```
+
+### Run the development servers
+
+Frontend
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Backend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
+Contributions, issues, and feature requests are welcome. Please open an issue before submitting a pull request for significant changes.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
