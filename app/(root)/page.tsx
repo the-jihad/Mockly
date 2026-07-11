@@ -5,6 +5,7 @@ import ApiSection from '../components/Apisection'
 import QuickStartSection from '../components/QuickStartSection'
 import TechnologySection from '../components/TechnologySection'
 import FAQSection from '../components/FAQsection'
+import Footer from '../components/Footer'
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
         <QuickStartSection/>
         <TechnologySection/>
         <FAQSection/>
+        <Footer/>
     </div>
   )
 }
