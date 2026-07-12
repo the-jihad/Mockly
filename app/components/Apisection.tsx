@@ -7,7 +7,6 @@ type ApiSectionProps = {
   limit?: number;
   showViewAll?: boolean;
 };
-
 export default function ApiSection({
   limit,
   showViewAll = true,
