@@ -1,9 +1,9 @@
 
 export const faqs = [
   {
-    question: "Is MCKAPI free to use?",
+    question: "Is Mockly Api free to use?",
     answer:
-      "Yes. MCKAPI is completely free for development, testing, and learning purposes.",
+      "Yes. Mockly APi is completely free for development, testing, and learning purposes.",
   },
   {
     question: "Do I need an API key?",
@@ -11,7 +11,7 @@ export const faqs = [
       "No. All public endpoints can be accessed without authentication.",
   },
   {
-    question: "Can I use MCKAPI in production?",
+    question: "Can I use Mockly in production?",
     answer:
       "MCKAPI is designed primarily for development, prototyping, and testing applications.",
   },
@@ -21,7 +21,7 @@ export const faqs = [
       "Every endpoint returns standard JSON responses with realistic mock data.",
   },
   {
-    question: "Does MCKAPI support pagination?",
+    question: "Does Mockly support pagination?",
     answer:
       "Yes. Most endpoints support pagination, filtering, sorting, and search parameters.",
   },

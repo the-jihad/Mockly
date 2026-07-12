@@ -19,7 +19,7 @@ export default function FAQSection() {
         </h2>
 
         <p className="mt-4 text-zinc-400">
-          Everything you need to know before using MCKAPI.
+          Everything you need to know before using Mockly Api.
         </p>
       </div>
       <div className="mt-16 space-y-4">

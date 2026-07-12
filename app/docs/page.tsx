@@ -22,8 +22,6 @@ export default function DocsPage() {
   return (
     <main className="mx-auto flex max-w-7xl gap-12 px-6 py-16 text-zinc-300">
 
-      {/* ================= Sidebar ================= */}
-
       <aside className="sticky top-20 hidden h-fit w-64 xl:block">
 
         <p className="mb-4 text-xs font-bold uppercase tracking-widest text-zinc-500">
@@ -55,11 +53,7 @@ export default function DocsPage() {
         </nav>
       </aside>
 
-      {/* ================= Content ================= */}
-
       <article className="max-w-4xl flex-1">
-
-        {/* Header */}
 
         <header className="border-b border-zinc-800 pb-12">
 
@@ -76,11 +70,6 @@ export default function DocsPage() {
             Build, test and prototype applications without creating your own backend.
           </p>
         </header>
-
-        {/* ================================================= */}
-
-        {/* Introduction */}
-
         <section
           id="introduction"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -100,10 +89,6 @@ export default function DocsPage() {
             learning fetch requests and building portfolios.
           </p>
         </section>
-
-        {/* ================================================= */}
-
-        {/* Getting Started */}
 
         <section
           id="getting-started"
@@ -133,10 +118,6 @@ export default function DocsPage() {
           </div>
         </section>
 
-        {/* ================================================= */}
-
-        {/* Base URL */}
-
         <section
           id="base-url"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -162,11 +143,6 @@ export default function DocsPage() {
           </div>
 
         </section>
-
-        {/* ================================================= */}
-
-        {/* Authentication */}
-
         <section
           id="authentication"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -193,11 +169,6 @@ export default function DocsPage() {
           </div>
 
         </section>
-
-        {/* ======================= PART 2 START HERE ======================= */}
-        {/* ================================================= */}
-        {/* Users */}
-
         <section
           id="users"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -249,10 +220,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Products */}
-
         <section
           id="products"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -280,10 +247,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Posts */}
-
         <section
           id="posts"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -311,10 +274,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Comments */}
-
         <section
           id="comments"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -342,10 +301,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Companies */}
-
         <section
           id="companies"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -374,9 +329,6 @@ export default function DocsPage() {
           </div>
         </section>
 
-        {/* ================================================= */}
-        {/* Categories */}
-
         <section
           id="categories"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -404,11 +356,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ======================= PART 3 START HERE ======================= */}
-        {/* ================================================= */}
-        {/* Search */}
-
         <section
           id="search"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -454,10 +401,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Filtering */}
-
         <section
           id="filtering"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -494,10 +437,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Sorting */}
-
         <section
           id="sorting"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -534,11 +473,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================= PART 3B START ================= */}
-        {/* ================================================= */}
-        {/* Pagination */}
-
         <section
           id="pagination"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -583,10 +517,6 @@ export default function DocsPage() {
             </pre>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Errors */}
-
         <section
           id="errors"
           className="scroll-mt-24 border-b border-zinc-800 py-16"
@@ -646,10 +576,6 @@ export default function DocsPage() {
             </table>
           </div>
         </section>
-
-        {/* ================================================= */}
-        {/* Previous / Next */}
-
         <section className="py-16">
           <div className="grid gap-6 md:grid-cols-2">
 
