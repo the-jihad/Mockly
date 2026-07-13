@@ -9,5 +9,7 @@ type Props = {
 export default async function Page({ params }: Props) {
   const { slug } = await params;
 
-  redirect(`http://localhost:5000/api/v1/${slug}`);
+  const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+  redirect(`${API_URL}/api/v1/${slug}`);
 }

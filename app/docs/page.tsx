@@ -423,7 +423,7 @@ export default function DocsPage() {
             </div>
 
             <pre className="overflow-x-auto p-5 text-green-400">
-{`GET /api/products?category=laptop`}
+{`GET /api/products?category=something`}
             </pre>
           </div>
 
@@ -433,7 +433,7 @@ export default function DocsPage() {
             </div>
 
             <pre className="overflow-x-auto p-5 text-green-400">
-{`GET /api/products?category=laptop&brand=apple`}
+{`GET /api/products?category=sean`}
             </pre>
           </div>
         </section>
@@ -480,14 +480,8 @@ export default function DocsPage() {
           <span className="rounded bg-green-500/15 px-2 py-1 text-xs font-semibold text-green-400">
             GET
           </span>
-
-          <h2 className="mt-4 text-3xl font-bold text-white">
-            Pagination
-          </h2>
-
           <p className="mt-5 leading-8 text-zinc-400">
             Control how many records are returned by using
-            <code className="mx-1 text-green-400">page</code> and
             <code className="mx-1 text-green-400">limit</code>.
           </p>
 
@@ -497,7 +491,7 @@ export default function DocsPage() {
             </div>
 
             <pre className="overflow-x-auto p-5 text-green-400">
-{`GET /api/users?page=2&limit=10`}
+{`GET /api/users?limit=10`}
             </pre>
           </div>
 
@@ -510,8 +504,6 @@ export default function DocsPage() {
 {`{
   "page": 2,
   "limit": 10,
-  "total": 100,
-  "totalPages": 10,
   "data": [...]
 }`}
             </pre>
